@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:'poppins',sans-serif;
+}
+.contact{
+    position: relative;
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.contact h2
+{
+    font-size: 36px;
+    font-weight: 500;
+    color:chocolate;
+}
+.container
+{
+    width:100%;
+    display: flex;
+    justify-content: left;
+    align-items:left;
+    margin-top: 30px;
+    position: relative;
+    
+}
+
+.container .contactInfo
+{
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+    position: absolute;
+
+}
+.container .contactInfo .box
+{
+    
+    padding: 20px 0;
+    text-align: end;
+    position: relative;
+    display: flex;
+    position: relative;
+    
+}
+.container .contactInfo .box .text
+{
+    display:flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color:darkblue;
+    flex-direction: column;
+    position: relative;
+}
+.container .contactInfo .box .text h3{
+    font-weight: 500;
+    color: deeppink;
+    position: relative;
+}
+.contactform
+{
+    width: 40%;
+    padding: 40px;
+    background: gainsboro;
+    
+}
+.contactform h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+.contactInfo .inputBox
+{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;;
+}
+.contactform .inputBox input{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border:none;
+    border-bottom: 2px solid #333;
+    outline:none;
+    resize:none;
+}
+.contactform .inputBox span
+{
+    position: static;
+
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    
+    color:#666;
+
+}
+body
+{
+    background-image: url(image.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.menu-bar
+{
+    background-color: blueviolet;
+    text-align: center;
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+
+.menu-bar ul li
+{
+   width: 120px;
+   margin: 15px;
+   padding: 15px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: white;
+}
